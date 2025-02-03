@@ -11,7 +11,6 @@ export const validarJWT = async (req, res, next) => {
             msg: "No hay token en la peticion"
         })
     }
-
     try {
         const { uid } = jwt.verify(token, process.env.SECRETORPRIVATEKEY);
 
