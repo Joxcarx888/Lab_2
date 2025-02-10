@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "67a9fa355b259da0aa7683fe"
+  },
+  "name": "Max",
+  "surname": "Verstappen",
+  "username": "mverstappen",
+  "email": "@",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$GP9mIBekeLeSIZ5Qxywttw$s8hXiGJAukeqX08fNqPQs0MxCv64hMknJb1rZjiRiSY",
+  "profilePicture": null,
+  "phone": "12345674",
+  "role": "USER_ROLE",
+  "estado": false,
+  "createdAt": {
+    "$date": "2025-02-10T13:08:05.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T13:24:01.918Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a9fa9c0b559b2637cfd203"
+  },
+  "name": "Max",
+  "surname": "Verstappen",
+  "username": "mverstappen33",
+  "email": "mverstappen@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$cHO8nbXs9cPFotmI0VO8Ww$7HeASKGrcHPic9BvFepPt3E7T8+gQhPGX+cyiIF9Ifs",
+  "profilePicture": null,
+  "phone": "12345674",
+  "role": "ADMIN_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-10T13:09:48.081Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T13:09:48.081Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a9fb500b559b2637cfd209"
+  },
+  "name": "Fernando",
+  "surname": "Alonso",
+  "username": "alonso14",
+  "email": "falonso@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$6jo1BSX+PJ02EiaDjvoJkg$Tcla+I8Nsv/vaqKl0yhwn0atkNGrHKOvVuZJMbkPmUg",
+  "profilePicture": "",
+  "phone": "20052006",
+  "role": "ADMIN_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-10T13:12:48.414Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T13:25:37.102Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67aa047340abfef3740c084a"
+  },
+  "name": "Lewis",
+  "surname": "Hamilton",
+  "username": "hamilton44",
+  "email": "lhmailton@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$yyC9GgfxQih5Cj3V+jmgHw$lq6zkyyk/SlMQWFRWoxn/chj4jDmgNzib8lYWfdjn4Q",
+  "profilePicture": null,
+  "phone": "12345674",
+  "role": "USER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-10T13:51:47.331Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T15:24:02.735Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67aa19c30836b2721635274e"
+  },
+  "name": "Lando",
+  "surname": "Norris",
+  "username": "norris4",
+  "email": "lnorris@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$LuiZBIpAEmtWu5IeHqfrjA$fFAA3/CNUkAaw8EU3ueqStatDGcEh0Rj8bGiD3jWmUE",
+  "profilePicture": null,
+  "phone": "12345674",
+  "role": "USER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-10T15:22:44.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T15:22:44.000Z"
+  }
+}]

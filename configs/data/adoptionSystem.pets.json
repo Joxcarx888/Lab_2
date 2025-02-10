@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "67aa038940abfef3740c083e"
+  },
+  "name": "Lucas",
+  "description": "Perro Peruano",
+  "age": 3,
+  "type": "PERRO",
+  "keeper": {
+    "$oid": "67a9fb500b559b2637cfd209"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-10T13:47:53.704Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T13:47:53.704Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67aa03b740abfef3740c0842"
+  },
+  "name": "Titan",
+  "description": "Tortuga Asesina",
+  "age": 33,
+  "type": "TORTUGA",
+  "keeper": {
+    "$oid": "67a9fb500b559b2637cfd209"
+  },
+  "status": false,
+  "createdAt": {
+    "$date": "2025-02-10T13:48:39.705Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T15:04:39.347Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67aa051140abfef3740c0856"
+  },
+  "name": "Rosco",
+  "description": "Grande",
+  "age": 7,
+  "type": "PERRO",
+  "keeper": {
+    "$oid": "67aa047340abfef3740c084a"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-10T13:54:25.317Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T13:54:25.317Z"
+  }
+}]

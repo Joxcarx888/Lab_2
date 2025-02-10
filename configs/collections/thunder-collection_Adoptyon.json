@@ -1,0 +1,177 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Adoptyon",
+    "collectionId": "7835a012-295b-4343-81a5-3382b7c06b57",
+    "dateExported": "2025-02-10T16:33:24.032Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a229c722-597a-4a11-9991-e6a0c670a14b",
+            "colId": "7835a012-295b-4343-81a5-3382b7c06b57",
+            "containerId": "",
+            "name": "Registrar",
+            "url": "http://localhost:3000/adoptionSystem/v1/auth/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-02-10T13:08:29.943Z",
+            "modified": "2025-02-10T15:22:44.014Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Lando\",\n  \"surname\": \"Norris\",\n  \"username\": \"norris4\",\n  \"email\": \"lnorris@gmail.com\",\n  \"password\": \"12345678\",\n  \"profilePicture\": \"\",\n  \"phone\": \"12345674\",\n  \"role\": \"USER_ROLE\"\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "4fb05a87-207e-4fba-a73a-ee65e46601f1",
+            "colId": "7835a012-295b-4343-81a5-3382b7c06b57",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:3000/adoptionSystem/v1/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-02-10T13:09:57.937Z",
+            "modified": "2025-02-10T15:24:40.121Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"norris4\",\n  \"password\": \"12345678\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "89b43ede-9f4f-4795-95d5-2729832380b9",
+            "colId": "7835a012-295b-4343-81a5-3382b7c06b57",
+            "containerId": "",
+            "name": "Listar",
+            "url": "http://localhost:3000/adoptionSystem/v1/users",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-02-10T13:12:14.397Z",
+            "modified": "2025-02-10T13:13:37.945Z",
+            "headers": []
+        },
+        {
+            "_id": "55442cdb-4d83-44f7-b666-ea6201dc6b65",
+            "colId": "7835a012-295b-4343-81a5-3382b7c06b57",
+            "containerId": "",
+            "name": "Buscar",
+            "url": "http://localhost:3000/adoptionSystem/v1/users/findUser/67a9fb500b559b2637cfd209",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2025-02-10T13:14:05.415Z",
+            "modified": "2025-02-10T13:21:16.008Z",
+            "headers": [
+                {
+                    "name": "id",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2E5ZmE5YzBiNTU5YjI2MzdjZmQyMDMiLCJpYXQiOjE3MzkxOTMwNTIsImV4cCI6MTczOTE5NjY1Mn0.lKPQclUJbyciZD25qYtyJjsMPtJ7UVRsn3GuQPoaKjw",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "16689d39-e8b1-44a2-a8e7-e937914c0e8a",
+            "colId": "7835a012-295b-4343-81a5-3382b7c06b57",
+            "containerId": "",
+            "name": "Eliminar",
+            "url": "http://localhost:3000/adoptionSystem/v1/users/67a9fa355b259da0aa7683fe",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2025-02-10T13:23:30.715Z",
+            "modified": "2025-02-10T15:24:54.924Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhMTljMzA4MzZiMjcyMTYzNTI3NGUiLCJpYXQiOjE3MzkyMDEwODAsImV4cCI6MTczOTIwNDY4MH0.ShGDMs7KTS5TwVb5tQ19x8Y9ovkdQUKNZb6OMqS-L28"
+                }
+            ]
+        },
+        {
+            "_id": "3c71861a-dbde-4a5c-a05d-042241a08729",
+            "colId": "7835a012-295b-4343-81a5-3382b7c06b57",
+            "containerId": "",
+            "name": "Editar",
+            "url": "http://localhost:3000/adoptionSystem/v1/users/67aa047340abfef3740c084a",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2025-02-10T13:24:28.327Z",
+            "modified": "2025-02-10T15:24:02.747Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Lewis\",\n  \"surname\": \"Hamilton\",\n  \"username\": \"hamilton44\",\n  \"email\": \"lhmailton@gmail.com\",\n  \"profilePicture\": null,\n  \"phone\": \"12345674\",\n  \"role\": \"USER_ROLE\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "09fe7c0a-81ec-4ecd-bab9-67234183fe15",
+            "colId": "7835a012-295b-4343-81a5-3382b7c06b57",
+            "containerId": "",
+            "name": "AgregarMascota",
+            "url": "http://localhost:3000/adoptionSystem/v1/pets",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2025-02-10T13:25:54.946Z",
+            "modified": "2025-02-10T13:54:25.331Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2E5ZmI1MDBiNTU5YjI2MzdjZmQyMDkiLCJpYXQiOjE3MzkxOTUyNTksImV4cCI6MTczOTE5ODg1OX0.5V0auoomJVfxvKC7aQ-Y9Q6D1Ubt5VJKNBEP9EfG5cU"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Rosco\",\n  \"description\": \"Grande\",\n  \"age\": \"7\",\n  \"type\": \"Perro\",\n  \"email\": \"lhmailton@gmail.com\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "5f871fd9-4c52-4d45-b6a5-b94c531ff467",
+            "colId": "7835a012-295b-4343-81a5-3382b7c06b57",
+            "containerId": "",
+            "name": "Listar pets",
+            "url": "http://localhost:3000/adoptionSystem/v1/pets",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2025-02-10T13:48:51.404Z",
+            "modified": "2025-02-10T13:48:59.223Z",
+            "headers": []
+        },
+        {
+            "_id": "2a25d21e-1c1f-4e60-b6a5-4e842654012f",
+            "colId": "7835a012-295b-4343-81a5-3382b7c06b57",
+            "containerId": "",
+            "name": "Buscar Pet",
+            "url": "http://localhost:3000/adoptionSystem/v1/pets/67aa03b740abfef3740c0842",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2025-02-10T14:03:50.404Z",
+            "modified": "2025-02-10T14:08:53.103Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2E5ZmI1MDBiNTU5YjI2MzdjZmQyMDkiLCJpYXQiOjE3MzkxOTUyNTksImV4cCI6MTczOTE5ODg1OX0.5V0auoomJVfxvKC7aQ-Y9Q6D1Ubt5VJKNBEP9EfG5cU"
+                }
+            ]
+        },
+        {
+            "_id": "635dfa75-1a2e-4a5c-a2e3-2d811bcc38e0",
+            "colId": "7835a012-295b-4343-81a5-3382b7c06b57",
+            "containerId": "",
+            "name": "Eliminar Mascota",
+            "url": "http://localhost:3000/adoptionSystem/v1/pets/67aa03b740abfef3740c0842",
+            "method": "DELETE",
+            "sortNum": 110000,
+            "created": "2025-02-10T14:23:53.512Z",
+            "modified": "2025-02-10T15:04:39.370Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2E5ZmI1MDBiNTU5YjI2MzdjZmQyMDkiLCJpYXQiOjE3MzkxOTk4NjYsImV4cCI6MTczOTIwMzQ2Nn0.14t3BfVmCmZUF4XxxsW2A8xVuKdMhgDt0yyKgyZvR7s"
+                }
+            ]
+        }
+    ],
+    "ref": "Q4W3nXcQ4y0whQ749VqNGOdGYgZs6kNoliWK7V4sJ1QRawM3yKMn4dTxsefch63ljI23Gth_drdLyuXM5EQRXA"
+}
