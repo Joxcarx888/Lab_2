@@ -1,21 +1,21 @@
 {
     "clientName": "Thunder Client",
     "collectionName": "Adoptyon",
-    "collectionId": "7835a012-295b-4343-81a5-3382b7c06b57",
-    "dateExported": "2025-02-10T16:33:24.032Z",
+    "collectionId": "0b9736c9-d293-4a67-b66d-6ed91ce38b04",
+    "dateExported": "2025-02-10T17:51:48.735Z",
     "version": "1.2",
     "folders": [],
     "requests": [
         {
-            "_id": "a229c722-597a-4a11-9991-e6a0c670a14b",
-            "colId": "7835a012-295b-4343-81a5-3382b7c06b57",
+            "_id": "ffcc1680-2c30-402a-8af0-b453cd8f2aef",
+            "colId": "0b9736c9-d293-4a67-b66d-6ed91ce38b04",
             "containerId": "",
             "name": "Registrar",
             "url": "http://localhost:3000/adoptionSystem/v1/auth/register",
             "method": "POST",
             "sortNum": 10000,
-            "created": "2025-02-10T13:08:29.943Z",
-            "modified": "2025-02-10T15:22:44.014Z",
+            "created": "2025-02-10T16:33:54.023Z",
+            "modified": "2025-02-10T16:33:54.023Z",
             "headers": [],
             "body": {
                 "type": "json",
@@ -24,15 +24,15 @@
             }
         },
         {
-            "_id": "4fb05a87-207e-4fba-a73a-ee65e46601f1",
-            "colId": "7835a012-295b-4343-81a5-3382b7c06b57",
+            "_id": "d5995deb-7c2c-4305-96d1-9dfd2e028242",
+            "colId": "0b9736c9-d293-4a67-b66d-6ed91ce38b04",
             "containerId": "",
             "name": "login",
             "url": "http://localhost:3000/adoptionSystem/v1/auth/login",
             "method": "POST",
             "sortNum": 20000,
-            "created": "2025-02-10T13:09:57.937Z",
-            "modified": "2025-02-10T15:24:40.121Z",
+            "created": "2025-02-10T16:33:54.024Z",
+            "modified": "2025-02-10T17:51:38.637Z",
             "headers": [],
             "body": {
                 "type": "json",
@@ -41,27 +41,27 @@
             }
         },
         {
-            "_id": "89b43ede-9f4f-4795-95d5-2729832380b9",
-            "colId": "7835a012-295b-4343-81a5-3382b7c06b57",
+            "_id": "58e6b087-0eb0-468b-b423-086983a3cd02",
+            "colId": "0b9736c9-d293-4a67-b66d-6ed91ce38b04",
             "containerId": "",
             "name": "Listar",
             "url": "http://localhost:3000/adoptionSystem/v1/users",
             "method": "GET",
             "sortNum": 30000,
-            "created": "2025-02-10T13:12:14.397Z",
-            "modified": "2025-02-10T13:13:37.945Z",
+            "created": "2025-02-10T16:33:54.025Z",
+            "modified": "2025-02-10T16:33:54.025Z",
             "headers": []
         },
         {
-            "_id": "55442cdb-4d83-44f7-b666-ea6201dc6b65",
-            "colId": "7835a012-295b-4343-81a5-3382b7c06b57",
+            "_id": "74484d2f-9e3b-4ce9-ae10-451ac5e1db72",
+            "colId": "0b9736c9-d293-4a67-b66d-6ed91ce38b04",
             "containerId": "",
             "name": "Buscar",
             "url": "http://localhost:3000/adoptionSystem/v1/users/findUser/67a9fb500b559b2637cfd209",
             "method": "GET",
             "sortNum": 40000,
-            "created": "2025-02-10T13:14:05.415Z",
-            "modified": "2025-02-10T13:21:16.008Z",
+            "created": "2025-02-10T16:33:54.026Z",
+            "modified": "2025-02-10T16:33:54.026Z",
             "headers": [
                 {
                     "name": "id",
@@ -71,15 +71,15 @@
             ]
         },
         {
-            "_id": "16689d39-e8b1-44a2-a8e7-e937914c0e8a",
-            "colId": "7835a012-295b-4343-81a5-3382b7c06b57",
+            "_id": "a4f8c392-c262-4300-ac89-1c686e7f8ebb",
+            "colId": "0b9736c9-d293-4a67-b66d-6ed91ce38b04",
             "containerId": "",
             "name": "Eliminar",
             "url": "http://localhost:3000/adoptionSystem/v1/users/67a9fa355b259da0aa7683fe",
             "method": "DELETE",
             "sortNum": 60000,
-            "created": "2025-02-10T13:23:30.715Z",
-            "modified": "2025-02-10T15:24:54.924Z",
+            "created": "2025-02-10T16:33:54.027Z",
+            "modified": "2025-02-10T16:33:54.027Z",
             "headers": [
                 {
                     "name": "x-token",
@@ -88,32 +88,32 @@
             ]
         },
         {
-            "_id": "3c71861a-dbde-4a5c-a05d-042241a08729",
-            "colId": "7835a012-295b-4343-81a5-3382b7c06b57",
+            "_id": "52b3ce45-a561-4706-93c6-8b57a815b84b",
+            "colId": "0b9736c9-d293-4a67-b66d-6ed91ce38b04",
             "containerId": "",
             "name": "Editar",
             "url": "http://localhost:3000/adoptionSystem/v1/users/67aa047340abfef3740c084a",
             "method": "PUT",
             "sortNum": 70000,
-            "created": "2025-02-10T13:24:28.327Z",
-            "modified": "2025-02-10T15:24:02.747Z",
+            "created": "2025-02-10T16:33:54.028Z",
+            "modified": "2025-02-10T17:33:56.880Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\": \"Lewis\",\n  \"surname\": \"Hamilton\",\n  \"username\": \"hamilton44\",\n  \"email\": \"lhmailton@gmail.com\",\n  \"profilePicture\": null,\n  \"phone\": \"12345674\",\n  \"role\": \"USER_ROLE\"\n}",
+                "raw": "{\n  \"name\": \"Lewis\",\n  \"surname\": \"Hamilton\",\n  \"username\": \"hamilton44\",\n  \"email\": \"ASAS@gmail.com\",\n  \"profilePicture\": null,\n  \"phone\": \"4410\",\n  \"role\": \"USER_ROLE\"\n}",
                 "form": []
             }
         },
         {
-            "_id": "09fe7c0a-81ec-4ecd-bab9-67234183fe15",
-            "colId": "7835a012-295b-4343-81a5-3382b7c06b57",
+            "_id": "8d9d98ce-e788-4d5b-a4b1-432f584c7a10",
+            "colId": "0b9736c9-d293-4a67-b66d-6ed91ce38b04",
             "containerId": "",
             "name": "AgregarMascota",
             "url": "http://localhost:3000/adoptionSystem/v1/pets",
             "method": "POST",
             "sortNum": 80000,
-            "created": "2025-02-10T13:25:54.946Z",
-            "modified": "2025-02-10T13:54:25.331Z",
+            "created": "2025-02-10T16:33:54.029Z",
+            "modified": "2025-02-10T16:33:54.029Z",
             "headers": [
                 {
                     "name": "x-token",
@@ -127,51 +127,90 @@
             }
         },
         {
-            "_id": "5f871fd9-4c52-4d45-b6a5-b94c531ff467",
-            "colId": "7835a012-295b-4343-81a5-3382b7c06b57",
+            "_id": "0adc23cf-cabe-4bfc-a349-98306a6eca44",
+            "colId": "0b9736c9-d293-4a67-b66d-6ed91ce38b04",
             "containerId": "",
             "name": "Listar pets",
             "url": "http://localhost:3000/adoptionSystem/v1/pets",
             "method": "GET",
             "sortNum": 90000,
-            "created": "2025-02-10T13:48:51.404Z",
-            "modified": "2025-02-10T13:48:59.223Z",
+            "created": "2025-02-10T16:33:54.030Z",
+            "modified": "2025-02-10T16:33:54.030Z",
             "headers": []
         },
         {
-            "_id": "2a25d21e-1c1f-4e60-b6a5-4e842654012f",
-            "colId": "7835a012-295b-4343-81a5-3382b7c06b57",
+            "_id": "f2c70209-3efe-46c1-a057-9bf734640b9e",
+            "colId": "0b9736c9-d293-4a67-b66d-6ed91ce38b04",
             "containerId": "",
             "name": "Buscar Pet",
-            "url": "http://localhost:3000/adoptionSystem/v1/pets/67aa03b740abfef3740c0842",
+            "url": "http://localhost:3000/adoptionSystem/v1/pets/67aa051140abfef3740c0856",
             "method": "GET",
             "sortNum": 100000,
-            "created": "2025-02-10T14:03:50.404Z",
-            "modified": "2025-02-10T14:08:53.103Z",
+            "created": "2025-02-10T16:33:54.031Z",
+            "modified": "2025-02-10T17:26:23.501Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2E5ZmI1MDBiNTU5YjI2MzdjZmQyMDkiLCJpYXQiOjE3MzkxOTUyNTksImV4cCI6MTczOTE5ODg1OX0.5V0auoomJVfxvKC7aQ-Y9Q6D1Ubt5VJKNBEP9EfG5cU"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhMTljMzA4MzZiMjcyMTYzNTI3NGUiLCJpYXQiOjE3MzkyMDgzNDksImV4cCI6MTczOTIxMTk0OX0.uqxw1_me0r9hFNLIJwJj9psRUU8mlVuOLPLIjofqVpk"
                 }
             ]
         },
         {
-            "_id": "635dfa75-1a2e-4a5c-a2e3-2d811bcc38e0",
-            "colId": "7835a012-295b-4343-81a5-3382b7c06b57",
+            "_id": "c0f5f6ad-64eb-41a8-92e8-9a91f4b8bf5d",
+            "colId": "0b9736c9-d293-4a67-b66d-6ed91ce38b04",
             "containerId": "",
             "name": "Eliminar Mascota",
             "url": "http://localhost:3000/adoptionSystem/v1/pets/67aa03b740abfef3740c0842",
             "method": "DELETE",
             "sortNum": 110000,
-            "created": "2025-02-10T14:23:53.512Z",
-            "modified": "2025-02-10T15:04:39.370Z",
+            "created": "2025-02-10T16:33:54.032Z",
+            "modified": "2025-02-10T16:33:54.032Z",
             "headers": [
                 {
                     "name": "x-token",
                     "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2E5ZmI1MDBiNTU5YjI2MzdjZmQyMDkiLCJpYXQiOjE3MzkxOTk4NjYsImV4cCI6MTczOTIwMzQ2Nn0.14t3BfVmCmZUF4XxxsW2A8xVuKdMhgDt0yyKgyZvR7s"
                 }
             ]
+        },
+        {
+            "_id": "d7d64bc6-de67-4e84-99cf-bf6015a2a7f3",
+            "colId": "0b9736c9-d293-4a67-b66d-6ed91ce38b04",
+            "containerId": "",
+            "name": "Editar Pet",
+            "url": "http://localhost:3000/adoptionSystem/v1/pets/67aa051140abfef3740c0856",
+            "method": "PUT",
+            "sortNum": 120000,
+            "created": "2025-02-10T17:23:57.978Z",
+            "modified": "2025-02-10T17:44:08.286Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Roscoe\",\n  \"description\": \"Bulldog\",\n  \"age\": \"12\",\n  \"type\": \"Perro\",\n  \"email\": \"falonso@gmail.com\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "c984e738-e986-43b3-987d-ce24190612fb",
+            "colId": "0b9736c9-d293-4a67-b66d-6ed91ce38b04",
+            "containerId": "",
+            "name": "Editar Contraseña ",
+            "url": "http://localhost:3000/adoptionSystem/v1/users/updatepassword/67aa19c30836b2721635274e",
+            "method": "PUT",
+            "sortNum": 130000,
+            "created": "2025-02-10T17:40:11.564Z",
+            "modified": "2025-02-10T17:51:30.955Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhMTljMzA4MzZiMjcyMTYzNTI3NGUiLCJpYXQiOjE3MzkyMDgzNDksImV4cCI6MTczOTIxMTk0OX0.uqxw1_me0r9hFNLIJwJj9psRUU8mlVuOLPLIjofqVpk"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"password\": \"12345678\"\n}",
+                "form": []
+            }
         }
     ],
-    "ref": "Q4W3nXcQ4y0whQ749VqNGOdGYgZs6kNoliWK7V4sJ1QRawM3yKMn4dTxsefch63ljI23Gth_drdLyuXM5EQRXA"
+    "ref": "YSbGCUW9J6oTUcnHxDTSKRPQIwh7YeiFrEU9zKsA1KH3pmfZNYz02WWj3YBgq2F7IBiCkgYGVdUdG6Bc0yS8ZQ"
 }
