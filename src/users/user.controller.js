@@ -113,7 +113,7 @@ export const updateUserPassword = async (req, res = response) => {
         const { id } = req.params;
         const { password } = req.body;
 
-        // Check if password exists
+ 
         if (!password) {
             return res.status(400).json({
                 success: false,

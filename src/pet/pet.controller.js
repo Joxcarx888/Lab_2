@@ -80,7 +80,7 @@ export const searchPet = async (req, res) => {
         if(!pet){
             return res.status(404).json({
                 success: false,
-                message: 'Mascona no encontrada'
+                message: 'Mascota no encontrada'
             })
         }
 

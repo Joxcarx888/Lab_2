@@ -1,6 +1,7 @@
 import Role from '../role/role.model.js';
 import User from '../users/user.model.js';
 import Pet from '../pet/pet.model.js';
+import Appointment from '../appointment/appointment.model.js';
 
 export const esRoleValido = async (role = '') =>{
     const existeRol = await Role.findOne({ role });
@@ -31,6 +32,14 @@ export const existeMascotaById = async (id = '') => {
     const existeMascota = await Pet.findById(id);
 
     if(!existeMascota){
+        throw new Error(`El ID ${id} no existe`);
+    }
+}
+
+export const existeCitaById = async (id = '') => {
+    const existeCitaById = await Appointment.findById(id);
+
+    if(!existeCitaById){
         throw new Error(`El ID ${id} no existe`);
     }
 }
