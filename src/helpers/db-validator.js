@@ -37,9 +37,9 @@ export const existeMascotaById = async (id = '') => {
 }
 
 export const existeCitaById = async (id = '') => {
-    const existeCitaById = await Appointment.findById(id);
-
-    if(!existeCitaById){
+    const existeCita = await Appointment.findById(id);
+    console.log(existeCita);
+    if(!existeCita){
         throw new Error(`El ID ${id} no existe`);
     }
 }

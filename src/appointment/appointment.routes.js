@@ -4,7 +4,6 @@ import { SaveAppointment,deleteAppointment,getAppointments, searchAppointment, u
 import { validarCampos } from "../middlewares/validar-campos.js";
 import { validarJWT } from "../middlewares/validar-jw.js";
 import { existeCitaById } from "../helpers/db-validator.js";
-import { SavePet, searchPet } from "../pet/pet.controller.js";
 
 const router = Router();
 
@@ -12,10 +11,10 @@ router.post(
     "/",
     [
         validarJWT,
-        check('id', 'El ID de la mascota es obligatorio').isMongoId(),
+        check('id', 'El ID de la mascota es obligatorio').not().isEmpty(),
         validarCampos
     ],
-    SavePet
+    SaveAppointment
 );
 
 router.get("/", getAppointments);

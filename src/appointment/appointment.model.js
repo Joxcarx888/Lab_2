@@ -19,7 +19,7 @@ const AppointmentSchema = Schema({
     },
     petRegistered: {
         type: Schema.Types.ObjectId,
-        ref: 'pet',
+        ref: 'Pet',
         required: true
     },
     status:{

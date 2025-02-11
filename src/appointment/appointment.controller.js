@@ -1,12 +1,12 @@
 import Pet from "../pet/pet.model.js";
 import Appointment from "./appointment.model.js";
 
-pet
+
 export const SaveAppointment = async (req, res) => {
     try {
         
         const data = req.body;
-        const pet = await Pet.findOne({ id: data.id});
+        const pet = await Pet.findOne({ _id: data.id });
 
         if(!pet){
             res.status(404).json({
@@ -15,7 +15,7 @@ export const SaveAppointment = async (req, res) => {
                 error
             })  
         }
-
+        
         const appointment = new Appointment({
             ...data,
             petRegistered: pet._id
@@ -31,8 +31,8 @@ export const SaveAppointment = async (req, res) => {
         res.status(500).json({
             success: false,
             message: 'Error al generar cita',
-            error
-        })
+            error: error.message 
+        });
     }
 }
 
